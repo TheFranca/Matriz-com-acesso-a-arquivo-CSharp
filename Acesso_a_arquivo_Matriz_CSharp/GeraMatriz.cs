@@ -20,8 +20,8 @@ namespace Acesso_a_arquivo_Matriz_CSharp
 
             string dir = Directory.GetCurrentDirectory();
             
-            StreamWriter sw = new StreamWriter(@"Coloque_seu_diretório_aqui");
-            //Ex: StreamWriter sw = new StreamWriter(@"C:\Users\T.I\Desktop\ResultMatriz.txt");
+            //StreamWriter sw = new StreamWriter(@"Coloque_seu_diretório_aqui");
+            StreamWriter sw = new StreamWriter(@"C:\Users\T.I\Desktop\ResultMatriz.txt");
                                    
             for (int i = 0; i < linha; i++)
             {
