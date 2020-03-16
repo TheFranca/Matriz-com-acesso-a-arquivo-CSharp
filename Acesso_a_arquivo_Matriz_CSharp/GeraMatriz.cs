@@ -7,7 +7,11 @@ namespace Acesso_a_arquivo_Matriz_CSharp
 {
     class GeraMatriz
     {
-        
+        public int Rand()
+        {
+            Random rand = new Random();
+            return (int)rand.Next(0,10);
+        }
         public static void Randomico()
         {
             Console.Write("Digite a quantidade de linhas: ");

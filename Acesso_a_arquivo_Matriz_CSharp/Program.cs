@@ -110,9 +110,9 @@ namespace Acesso_a_arquivo_Matriz_CSharp
         static void Main(string[] args)
         {
             GeraMatriz.Randomico();
-            
+                                  
             //string[] texto = System.IO.File.ReadAllLines(@"Coloque_seu_diretório_aqui");
-            string[] texto = System.IO.File.ReadAllLines(@"C:\Users\T.I\Desktop\ResultMatriz.txt");
+            string[] texto = File.ReadAllLines(@"C:\Users\T.I\Desktop\ResultMatriz.txt");
 
             int linha = texto.Length;
             //-1 porque quando a matriz é criada na classe "GeraMatriz" é posto um caracter vazio " " ao final de cada linha
